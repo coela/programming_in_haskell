@@ -48,4 +48,4 @@ and3 a b = if a  then b
 					 else False
 
 --6--
-(\x -> (\y -> (\z -> x * y * z) ) )
+mult = (\x -> (\y -> (\z -> x * y * z) ) )
